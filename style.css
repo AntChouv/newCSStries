@@ -10,16 +10,63 @@ button {
     background-color: #EBF7E3;
     color: #1B3409;
 }
-#signupBut {
+#signupBut {/*for IDs*/
     background-color: #1B3409;
     color: #EBF7E3;
 }
 input {
     font-size: 20px;
 }
-input.placeholder { 
-    color: white;
+h1,h2,label,li {
+    color :#1B3409;
 }
-h1,h2 {
-    color : #1B3409
+span {
+    color: #9BD770;
 }
+.tag{ /*for classes*/
+    background-color: #1B3409;
+}
+li a,span a {
+    text-decoration: none;
+    color: #EBF7E3;
+}
+section + hr { /*every hr after sections*/
+    height: 2px; 
+    background-color: #EBF7E3;
+    border: none;
+}
+input[type="password"]{/*attribute selector*/
+    background-color: #1B3409;
+    color: #EBF7E3;
+}
+a:hover{ /*pseudo classes*/
+    text-decoration: underline;
+}
+.votebut:hover{
+    background-color: #1B3409;
+    color: #EBF7E3;
+}
+.votebut:active{
+    background-color: #EBF7E3;
+    color: #1B3409;
+}
+.post:nth-of-type(2n-1) {
+    background-color:#537c36;
+}
+#bla::selection {
+    background-color: #1B3409;
+    color: #EBF7E3;
+}
+/*a[href="/home"]{
+    color: purple;
+}
+
+section > span { //every span than is a child of a section
+    color : black;   
+}    
+
+in terms of specificity the way to go is : inline styles > ID > CLASS > ELEMENT
+
+color : inherit; means that the element will inherit the color 
+of the parent element
+*/
