@@ -1,0 +1,16 @@
+* {  /* selects all elements */
+    color: white;
+    background-color: green;
+}
+button {
+    font-size: 20px;
+}
+input {
+    font-size: 20px;
+}
+input.placeholder { 
+    color: white;
+}
+h1,h2 {
+    color : orange
+}
